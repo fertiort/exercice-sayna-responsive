@@ -27,11 +27,12 @@ header, .page01{
 header{
     border-bottom: 1px solid #f7f7f72a;
     align-items: center;
+    justify-content: center;
     height: 120px;
+    padding: 20px 0;
 }
 .logo-sayna{
-    width: 350px;
-    margin: 0px 70px;
+    width: 80%;
 }
 
 .menu{
@@ -62,13 +63,14 @@ header{
 
 
 .page01{
-    padding-top: 80px;
+    padding-top: 20px;
     font-family: 'RalewayRegular';
     text-align: center;
+    font-size: larger;
 }
 .content{
     margin: auto;
-    width: 60%;
+    width: 90%;
 }
 .content-txt{
     margin: 30px 110px;
@@ -84,15 +86,16 @@ header{
 .buynow{
     border: none;
     box-shadow: none;
-    padding: 15px 60px;
+    padding: 30px 100px;
     background-color: #3d9f96;
     color: #fff;
     border-radius: 50px;
     font-family: 'Raleway';
+    font-size: xx-large;
 }
 
 .btn-page01{
-    margin-bottom: 90px;
+    margin-bottom: 30px;
 }
 
 /* footer css */

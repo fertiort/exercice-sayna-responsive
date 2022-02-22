@@ -48,7 +48,7 @@ header{
 }
 
 .menu a {
-    display: flex;
+    display: none;
     width: 153px;
     height: 120px;
     justify-content: center;
@@ -58,9 +58,6 @@ header{
 .getitnow, .getitnow:hover {
     color: #3d9f96;
 }
-
-
-
 
 
 

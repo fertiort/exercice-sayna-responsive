@@ -173,6 +173,37 @@ header{
 }
 
 
+/* section do */
+.do{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 80px 0px;
+    background-color: #30273d;
+}
+.do-content{
+    text-align: center;
+    font-family: 'Helvetica';
+    color: #f9f9f9;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    width: 80%;
+    font-size: x-large;
+}
+.cirlce-do{
+    width: 150px;
+    height: 150px;
+    background-color: #fff;
+    border-radius: 100px;
+    margin-bottom: 20px;
+}
+.name-do{
+    color: #3d9f96;
+    font-size: smaller;
+}
+
 /* footer css */
 footer{
     width: 100%;

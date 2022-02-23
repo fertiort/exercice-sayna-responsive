@@ -204,6 +204,49 @@ header{
     font-size: smaller;
 }
 
+
+/* section screen */
+.screen{
+    background-color: #f7f7f6;
+    margin-top: -20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 50px 0px;
+    font-family: 'RalewayRegular';
+}
+.screen-content{
+    width: 80%;   
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+.liste-screen{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+.screen-title{
+    font-size: xxx-large;
+    margin: 70px 0px;
+}
+.screen-title span{
+    font-family: 'Raleway';
+}
+.caption-screen{
+    font-family: 'Raleway';
+    font-size: x-large;
+    margin: 50px 0px;
+    text-align: center;
+}
+.liste-screen-img img{
+    width: 400px;
+}
+.mobil-hidden{
+    display: none;
+}
+
 /* footer css */
 footer{
     width: 100%;

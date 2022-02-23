@@ -98,6 +98,81 @@ header{
     margin-bottom: 30px;
 }
 
+
+
+
+
+/* section reseau social */
+.reseau-social{
+    background-color: #f9f9f9;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 40px 0px;
+}
+.reseau-social ul{
+    display: flex;
+    flex-direction: row;
+    list-style-type: none;
+    padding: 0px;
+}
+.reseau-social ul li{
+    margin: 0px 25px;
+}
+.reseau-social p{
+    display: none;
+}
+.reseau-social ul li img{
+    width: 60px;
+}
+
+
+/* section check our new app */
+.check{
+    font-family: 'Helvetica';
+    text-align: center;
+}
+.our-app h1{
+    font-family: 'RalewayRegular';
+}
+.our-app h1 span{
+    font-family: 'Raleway';
+}
+.our-app{
+    width: 80%;
+    margin: auto;
+    font-size: x-large;
+}
+.mobil-play{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-image: url("../img/map_bg.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding: 80px 0px;
+}
+.mobil-play-content{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    width: 60%;
+}
+.play-midle{
+    margin: 50px 0px;
+    display: flex;
+    justify-content: center;
+}
+.play-midle img{
+    width: 300px;
+}
+.bloc-content-play{
+    margin-top: 50px;
+}
+
+
 /* footer css */
 footer{
     width: 100%;
@@ -106,19 +181,24 @@ footer{
 .fthead{
     background-color: #f9f9f9;
     display: flex;
-    padding-top: 60px;
-    padding-left: 20%;
-    padding-bottom: 25px;
+    padding: 120px 100px 75px 100px;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
 }
-.ft-title img{
-    width: 250px;
+.ft-title img {
+    width: 70%;
+    margin-bottom: 20px;
 }
 .ft-title{
     height: 50px;
     display: flex;
-    align-items: flex-end;
-    margin-bottom: 15px;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 50px;
+    margin-top: 80px;
     font-family: 'Raleway';
+    font-size: xxx-large;
 }
 
 .ft-left{
@@ -135,19 +215,32 @@ footer{
 .ft-content a, .ft-content, .social-media a, .ftft {
     color: #afafaf;
     text-decoration: none;
+    text-align: center;
+    font-size: xx-large;
+    font-family: 'Helvetica';
 }
 
 .ftft{
     padding: 30px 0;
     display: flex;
-    padding-left: 20%;
-}
-.social-media{
-    width: 30%;
-}
-.copyright{
-    width: 69%;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
 }
 .social-media a{
-    margin: 0 10px;
+    margin: 0px 80px;
+}
+.copyright{
+    width: 100%;
+    margin: 50px 0px;
+    font-size: medium;
+}
+.social-media a img{
+   width: 60px;
+}
+.social-media{
+    display: flex;
+    width: 100%;
+    justify-content: center;
+    padding: 30px 0px;
 }

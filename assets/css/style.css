@@ -110,13 +110,13 @@ header{
     align-items: center;
     padding: 60px 0px;
 }
-.reseau-social ul{
+.reseau-social .ul{
     display: flex;
     flex-direction: row;
     list-style-type: none;
     padding: 0px;
 }
-.reseau-social ul li{
+.reseau-social .ul .li{
     margin: 0px 25px;
 }
 .reseau-social p{
@@ -163,7 +163,25 @@ header{
 .bloc-content-play{
     margin-top: 50px;
 }
-
+.bloc-content-play h2{
+    display: flex;
+    align-items: center;
+}
+.play-right h2{
+    flex-direction: row-reverse;
+}
+.bloc-content-play span{
+    margin: 0px 20px;
+}
+.bloc-content-play img{
+    width: 25px;
+}
+.txt-content-play{
+    text-align: start;
+}
+.play-right .txt-content-play{
+    text-align: end;
+}
 
 /* section do */
 .do{
@@ -311,6 +329,7 @@ footer{
 .ft-content a, .ft-content, .social-media a, .ftft {
     color: #afafaf;
     text-decoration: none;
+    font-family: 'Helvetica';
 }
 
 .ftft{

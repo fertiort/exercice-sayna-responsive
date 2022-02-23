@@ -66,11 +66,11 @@ header{
     padding-top: 20px;
     font-family: 'RalewayRegular';
     text-align: center;
-    font-size: larger;
 }
 .content{
     margin: auto;
     width: 90%;
+    font-size: large;
 }
 .content-txt{
     margin: 30px 110px;
@@ -111,20 +111,23 @@ header{
     align-items: center;
     padding: 40px 0px;
 }
-.reseau-social ul{
+.reseau-social .ul{
     display: flex;
     flex-direction: row;
-    list-style-type: none;
     padding: 0px;
 }
-.reseau-social ul li{
+.reseau-social .ul .li{
+    
     margin: 0px 25px;
+}
+.social-hidden{
+    display: none;
 }
 .reseau-social p{
     display: none;
 }
-.reseau-social ul li img{
-    width: 60px;
+.reseau-social .ul .li img{
+    width: 70px;
 }
 
 
@@ -171,7 +174,16 @@ header{
 .bloc-content-play{
     margin-top: 50px;
 }
-
+.bloc-content-play h2{
+    display: flex;
+    align-items: center;
+    font-size: xx-large;
+    margin-left: 27%;
+}
+.bloc-content-play img{
+    width: 70px;
+    margin-right: 20px;
+}
 
 /* section do */
 .do{
@@ -195,7 +207,7 @@ header{
 .cirlce-do{
     width: 150px;
     height: 150px;
-    background-color: #fff;
+    background-color: #828282;
     border-radius: 100px;
     margin-bottom: 20px;
 }
@@ -247,6 +259,58 @@ header{
     display: none;
 }
 
+
+/* section items */
+.items{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 40px 0;
+}
+.items-content{
+    width: 80%;
+}
+.items-app{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 100%;
+    font-family: 'Helvetica';
+    margin: 50px 0px;
+}
+.items-app img{
+    width: 80%;
+}
+.reverse{
+    margin-top: 200px;
+}
+.items-txt{
+    width: 100%;
+    text-align: center;
+}
+.items-img{
+    width: 100%;
+    text-align: center;
+}
+.items-title{
+    font-size: xx-large;
+    font-family: 'RalewayRegular';
+    margin: 20px 0px;
+}
+.items-title span{
+    font-family: 'Raleway';
+}
+.items-txt-content{
+    font-size: medium;
+    color: #000;
+}
+.items-txt-content p{
+    margin: 50px 0px;
+    line-height: 1.6em;
+}
+
+
 /* footer css */
 footer{
     width: 100%;
@@ -287,11 +351,12 @@ footer{
 }
 
 .ft-content a, .ft-content, .social-media a, .ftft {
-    color: #afafaf;
+    color: #000;
     text-decoration: none;
     text-align: center;
-    font-size: xx-large;
+    font-size: small;
     font-family: 'Helvetica';
+    line-height: 1.6em;
 }
 
 .ftft{
@@ -307,7 +372,7 @@ footer{
 .copyright{
     width: 100%;
     margin: 50px 0px;
-    font-size: medium;
+    font-size: small;
 }
 .social-media a img{
    width: 60px;
